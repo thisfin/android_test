@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="question_text">康士坦丁堡是土耳其最大的城市.</string>
+    <string name="true_button">是</string>
+    <string name="false_button">否</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">正确!</string>
+    <string name="incorrect_toast">错误!</string>
+    <string name="question_oceans">太平洋比大西洋大</string>
+    <string name="question_mideast">苏伊士运河连接了红海和印度洋</string>
+    <string name="question_africa">尼罗河的源头在埃及</string>
+    <string name="question_americas">亚马逊河是美洲最长的河</string>
+    <string name="question_asia">贝加尔湖是世界上最老最深的淡水湖</string>
+</resources>
