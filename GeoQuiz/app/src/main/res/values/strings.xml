@@ -14,4 +14,9 @@
     <string name="question_africa">尼罗河的源头在埃及</string>
     <string name="question_americas">亚马逊河是美洲最长的河</string>
     <string name="question_asia">贝加尔湖是世界上最老最深的淡水湖</string>
+
+    <string name="cheat_button">作弊</string>
+    <string name="warning_text">确定这么做?</string>
+    <string name="show_answer_button">看答案</string>
+    <string name="judgment_toast">作弊是不好的</string>
 </resources>
