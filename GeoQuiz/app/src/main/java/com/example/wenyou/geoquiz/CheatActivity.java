@@ -44,6 +44,7 @@ public class CheatActivity
                 } else {
                     mAnswerTextView.setText(R.string.false_button);
                 }
+                setAnswerShownResult(true);
             }
         });
     }
