@@ -1,8 +1,9 @@
 package com.example.wenyou.geoquiz;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -11,7 +12,7 @@ import android.widget.TextView;
  * Created by wenyou on 15/5/24.
  */
 public class CheatActivity
-        extends Activity {
+        extends AppCompatActivity {
     public static final String EXTRA_ANSWER_IS_TRUE = "com.example.wenyou.geoquiz.answer_is_true";
     public static final String EXTRA_ANSWER_SHOWN = "com.example.wneyou.geoquiz.answer_shown";
 
@@ -47,5 +48,12 @@ public class CheatActivity
                 setAnswerShownResult(true);
             }
         });
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_quiz, menu);
+        return true;
     }
 }
